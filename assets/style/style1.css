@@ -1,13 +1,19 @@
 *{
+    box-sizing: border-box;
     background-color: blueviolet;
+    margin: 0%;
+    padding: 0;
+    text-align: center;
+    font-family: 'Syne', sans-serif;
 }
 
 header{
-    border: 50px solid black;
+    border: 1px solid black;
+    background-image: url(/assets/images/design1_image1.jpg);
 }
 
 h1{
-    width: 500px;
+    background-color: gray;
 }
 
 h2{
@@ -18,4 +24,25 @@ h2{
 
 section{
     font-size: xx-large;
+}
+
+.logo{
+    width: 30vh;
+}
+
+img{
+    object-fit: contain;
+}
+
+a{
+    text-decoration: none;
+    background-color: blue;
+    border: red solid 1px;
+    border-radius: 15px;
+    padding: 3px;
+
+}
+
+span > a{
+    border: black solid 1px;
 }
