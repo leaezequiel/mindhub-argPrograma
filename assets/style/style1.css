@@ -1,0 +1,21 @@
+*{
+    background-color: blueviolet;
+}
+
+header{
+    border: 50px solid black;
+}
+
+h1{
+    width: 500px;
+}
+
+h2{
+    background-color: black;
+    color: aliceblue;
+    justify-content: center;
+}
+
+section{
+    font-size: xx-large;
+}
